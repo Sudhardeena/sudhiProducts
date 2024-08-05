@@ -69,17 +69,6 @@ class CartCheckoutPopup extends Component {
     )
   }
 
-  // <div className="payment-option">
-  //               <input
-  //                 type="radio"
-  //                 name="paymentType"
-  //                 value="Cash on Delivery"
-  //                 checked={isCODSelected}
-  //                 onClick={this.onClickCODOption}
-  //               />{' '}
-  //               Cash on Delivery
-  //             </div>
-
   render() {
     return (
       <div className="popup-container">
