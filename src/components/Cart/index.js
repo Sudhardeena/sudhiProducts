@@ -2,6 +2,7 @@ import Header from '../Header'
 import CartListView from '../CartListView'
 
 import CartContext from '../../context/CartContext'
+import CartCheckoutPopup from '../CartCheckoutPopup'
 import EmptyCartView from '../EmptyCartView'
 
 import './index.css'
@@ -47,9 +48,10 @@ const Cart = () => (
                     <p className="no-of-items">
                       {cartList.length} items in cart
                     </p>
-                    <button type="button" className="checkout-btn">
-                      Checkout
-                    </button>
+                    <CartCheckoutPopup
+                      quantity={cartList.length}
+                      orderTotal={cartTotal}
+                    />
                   </div>
                 )}
               </div>
@@ -61,3 +63,6 @@ const Cart = () => (
   </CartContext.Consumer>
 )
 export default Cart
+//  <button type="button" className="checkout-btn">
+//                       // Checkout //{' '}
+//                     </button>
