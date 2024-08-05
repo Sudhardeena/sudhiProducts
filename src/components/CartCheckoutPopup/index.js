@@ -99,10 +99,3 @@ class CartCheckoutPopup extends Component {
 }
 
 export default CartCheckoutPopup
-// <button
-//   type="button"
-//   className="trigger-button"
-//   onClick={() => close()}
-// >
-//   Close
-// </button>
