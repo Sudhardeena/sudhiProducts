@@ -1,5 +1,6 @@
 In this project, let's build a **Nxt Trendz - Cart Features** by applying the concepts we have learned till now.
-Website Link: "https://nxtrnzenhanxmnt.ccbp.tech"
+Website Link: ,,
+[Hostel at vercel](https://nxtrnzenhanxmnt.ccbp.tech)
 ### Refer to the video below:
 
 <br/>
